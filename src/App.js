@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import {Box} from '@mui/material';
-import {Navbar, Feed, GenreDetail, AnimeDetail, SearchPage, TopAnime} from './components';
+import {Navbar, Feed, GenreDetail, AnimeDetail, SearchPage, TopAnime, Footer} from './components';
 
 
 const app = () => {
@@ -14,6 +14,7 @@ const app = () => {
         <Route path='/topanime' element = {<TopAnime />} />
         <Route path='/search/:searchTerm'  element = {<SearchPage />}/>
       </Routes>
+      <Footer />
     </Box>
   </BrowserRouter>
 }
