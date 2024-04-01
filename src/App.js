@@ -6,7 +6,7 @@ import {Navbar, Feed, GenreDetail, AnimeDetail, SearchPage, TopAnime, Footer} fr
 const app = () => {
   return(
     <BrowserRouter>
-      <Box sx={{backgroundColor: '#5504c7'}}>
+      <Box sx={{backgroundColor: '#dae6e6'}}>
         <Navbar />
         <Routes>
           <Route path='/' exact element = {<Feed />} />
